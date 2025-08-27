@@ -1,2 +1,2 @@
 # Delaporte-MH-within-Gibbs-Sampler
-R implementation of a (Bayesian) Metropolis Hastings-within-Gibbs sampler for the Delaporte distribution, with diagnostics, and reproducible examples.
+R implementation of a (Bayesian) Metropolis Hastings-within-Gibbs sampler for the Delaporte distribution, with diagnostics, and reproducible examples. Shows Poisson-limit behavior. 
