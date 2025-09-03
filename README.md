@@ -52,7 +52,7 @@ fit <- gibbs_delaporte(
   X, 
   iterations = 10000, 
   burn = 2000,
-  seed = 42
+  seed = 69
 )
 
 # Examine results
