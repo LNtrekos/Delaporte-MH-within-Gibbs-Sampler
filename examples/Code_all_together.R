@@ -1,6 +1,5 @@
 # Delaporte MH-within-Gibbs 
 # -----------------------------------------------------------------------------
-# Matches the report's Inference section:
 #   - lambda | .  ~ Gamma(sum(X - Y1) + a_l,  n + b_l)
 #   - p      | .  ~ Beta(n*r + a_p,          sum(Y1) + b_p)
 #   - r      | .  via one MH step with log target:
@@ -327,3 +326,4 @@ if (sys.nframe() == 0) {
   # Reset plot layout
   par(mfrow = c(1, 1))
   }
+
