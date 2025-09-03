@@ -1,7 +1,5 @@
 # =============================================================================
 # File: gibbs_sampler.R
-# Project: Delaporte MH-within-Gibbs Sampler
-# Author: Leonidas Ntrekos
 # Description:
 #   - Main Gibbs sampler and single sweep step.
 #   - Functions:
@@ -133,4 +131,5 @@ gibbs_delaporte <- function(
        last_state = list(r = r, p = p, lambda = lambda, Y1 = Y1),
        burn = burn)
 }
+
 
