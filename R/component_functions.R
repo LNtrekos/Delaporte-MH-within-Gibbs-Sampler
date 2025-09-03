@@ -1,7 +1,5 @@
 # =============================================================================
 # File: component_functions.R
-# Project: Delaporte MH-within-Gibbs Sampler
-# Author: Leonidas Ntrekos
 # Description:
 #   - Core model component functions used by the Gibbs sampler.
 #   - Functions:
@@ -66,4 +64,5 @@ simulate_delaporte <- function(n = 100, r = 2, p = 0.5, lambda = 3, seed = NULL)
   Y2 <- rpois(n, lambda)
   Y1 + Y2
 }
+
 
