@@ -1,7 +1,5 @@
 # =============================================================================
 # File: numerical_functions.R
-# Project: Delaporte MH-within-Gibbs Sampler
-# Author: Leonidas Ntrekos
 # Description:
 #   - Small, dependency-free numerical utilities used across the sampler.
 #   - Functions:
@@ -20,6 +18,7 @@ softmax_log <- function(l) {
   if (!is.finite(m)) return(rep(1/length(l), length(l)))  # all -Inf -> uniform
   w <- exp(l - m); w / sum(w)
 }
+
 
 
 
