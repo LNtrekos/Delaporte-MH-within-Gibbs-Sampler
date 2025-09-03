@@ -66,3 +66,4 @@ simulate_delaporte <- function(n = 100, r = 2, p = 0.5, lambda = 3, seed = NULL)
   Y2 <- rpois(n, lambda)
   Y1 + Y2
 }
+
