@@ -1,7 +1,5 @@
 # =============================================================================
 # File: example.R
-# Project: Delaporte MH-within-Gibbs Sampler
-# Author: Leonidas Ntrekos
 # Description:
 #   - Reproducible example script demonstrating sampler usage.
 #   - Workflow:
@@ -106,4 +104,5 @@ legend("topright",
        bty = "n", cex = 0.8)
 
 # Reset plot layout
+
 par(mfrow = c(1, 1))
