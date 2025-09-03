@@ -1,7 +1,5 @@
 # =============================================================================
 # File: display_functions.R
-# Project: Delaporte MH-within-Gibbs Sampler
-# Author: Leonidas Ntrekos
 # Description:
 #   - Posterior summarization and visualization helpers.
 #   - Functions:
@@ -47,3 +45,4 @@ plot_chains_final <- function(fit, subset_by = 10, burn = fit$burn, save = NULL)
     dev.copy(pdf, save, width = 7, height = 4.5); dev.off()
   }
 }
+
